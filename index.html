@@ -38,10 +38,10 @@
 <!-- Header -->
 	<div class = 'jumbotron' id = 'header'>
 		<h1>Trains Arriving</h1>
-		<p>Instructions</p>
+		<p id = 'instruct'>Use the form below to add new trains to the Next Arrivals Panel.</p>
 	<div>
 <!-- Current Train Schedule -->
-	<table class = 'table table-striped'>
+	<table class = 'table trainTable'>
 		<thead>
 		<tr>
 			<th>Train Name</th>
@@ -59,7 +59,7 @@
 <!-- Add Train Area -->
 		
 	<div class = 'well content' id = 'formView'>
-		<form id = 'word-form'>
+		<form id = 'train-form'>
 			<label for="trainName">Train Name</label>
 			<input type="text" id="trainName"><br>
 			<label for="trainDest">Destination</label>
@@ -69,7 +69,7 @@
 			<label for="trainFreq">Frequency (min)</label>
 			<input type="text" id="trainFreq"><br>
 		    
-		    <button class = "btn btn-primary" id="addTrain">Add</button>
+		    <button class = "btn btn-primary">Add Train</button>
 		</form>
 	</div>
 		
