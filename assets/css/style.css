@@ -1,0 +1,13 @@
+* {
+	box-sizing: border-box;
+}
+input {
+	width: 100%;
+}
+table {
+	border: #FFFFFF;
+	border-width: 3px;
+}
+#header{
+	background-color: #F0F0F0
+}
